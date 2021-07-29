@@ -1,0 +1,19 @@
+18
+60C:\Users\11691\Desktop\x\npc.nav\nav\dist\index.3202ffd3.css132720089165433238 0
+42C:\Users\11691\Desktop\x\npc.nav\nav\.idea132720088516728848 1
+50C:\Users\11691\Desktop\x\npc.nav\nav\src\style.css132720089147887780 0
+40C:\Users\11691\Desktop\x\npc.nav\nav\src132719275560458111 1
+41C:\Users\11691\Desktop\x\npc.nav\nav\dist132720089165692541 1
+51C:\Users\11691\Desktop\x\npc.nav\nav\src\index.html132720089163763603 0
+48C:\Users\11691\Desktop\x\npc.nav\nav\src\main.js132720089143612649 0
+63C:\Users\11691\Desktop\x\npc.nav\nav\dist\index.01a1c8c0.js.map132719321350468331 0
+59C:\Users\11691\Desktop\x\npc.nav\nav\dist\index.01a1c8c0.js132719321350438427 0
+64C:\Users\11691\Desktop\x\npc.nav\nav\dist\index.3202ffd3.css.map132720089165602786 0
+59C:\Users\11691\Desktop\x\npc.nav\nav\dist\index.bd78eeec.js132720089165433238 0
+63C:\Users\11691\Desktop\x\npc.nav\nav\dist\index.bd78eeec.js.map132720089165592806 0
+54C:\Users\11691\Desktop\x\npc.nav\nav\.idea\modules.xml132719964146514704 0
+52C:\Users\11691\Desktop\x\npc.nav\nav\dist\index.html132720089165423255 0
+53C:\Users\11691\Desktop\x\npc.nav\nav\.idea\.gitignore132720088516728848 0
+50C:\Users\11691\Desktop\x\npc.nav\nav\.idea\nav.iml132719964146272479 0
+50C:\Users\11691\Desktop\x\npc.nav\nav\.idea\vcs.xml132719964146704182 0
+56C:\Users\11691\Desktop\x\npc.nav\nav\.idea\workspace.xml132719966641365803 0

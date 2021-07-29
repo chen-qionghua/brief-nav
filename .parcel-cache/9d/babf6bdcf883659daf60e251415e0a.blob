@@ -1,0 +1,52 @@
+/*css reset*/
+
+* {
+    box-sizing: border-box;
+    ;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* style */
+
+body {
+    background: #eee;
+}
+
+
+/* 先做移动端*/
+
+
+/* 先布局 */
+
+.globalHeader {}
+
+.globalHeader>input {}
+
+.globalHeader>button {}
+
+.globalMain {}
+
+.siteList {}
+
+.siteList>.site {}
+
+.siteList>.site>.logo {}
+
+.siteList>.site>.link {}
+
+.siteList>.addButton {}

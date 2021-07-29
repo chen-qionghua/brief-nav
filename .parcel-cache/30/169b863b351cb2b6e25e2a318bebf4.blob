@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>npc-nav</title>
+    <link rel="stylesheet" href="76d74868bf480873460adb8aad1df89c">
+    <style data-parcel-key="614002df12eadc494c36b1d85e72167f">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="globalHeader">
+        <form class="searchForm" method="GET" action="https://www.baidu.com/s" target="_blank">
+            <input name="wd" type="text">
+            <button type="submit">搜索</button>
+        </form>
+
+    </header>
+    <main class="globalMain">
+        <ul class="siteList">
+
+            <li class="last">
+                <div class="addButton">
+                    <div class="icon-wrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-add"></use>
+                        </svg>
+                    </div>
+                    <div class="text">
+                        新增网站
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="b0700a5d23c31a631ca58700835d9344"></script>
+    <script src="428571f466b4efcccf7f7c3f5dfaa963"></script>
+    <script src="67e2e1d839de85b19f58d77aecf7b303"></script>
+</body>
+
+</html>

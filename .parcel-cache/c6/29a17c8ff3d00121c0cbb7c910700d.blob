@@ -1,0 +1,137 @@
+    const $siteList=$('.siteList') const $lastLi=$siteList.find('li.last') const x=localStorage.getItem('x') //获取localStorage，第一次执行的为空
+    const xObject=JSON.parse(x) //将localStorage从字符串转化为对象
+    const hashMap=xObject || [ //渲染哈希，或逻辑，如果xObject有内容则渲染，无则渲染后者
+    {
+        logo: 'A', url: 'https://www.acfun.cn'
+    }
+    
+    ,
+    {
+        logo: 'B', url: 'https://www.bilibili.com'
+    }
+    
+    ] const simplifyUrl=(url)=> {
+        //删除网址前缀,简化url
+        return url.replace('https://', '') //replace后会产生新的字符串，故不能直接return原来的url
+        .replace('http://', '') .replace('www.', '') .replace(/\/.*/, '') //删除斜杆后面的内容——  / \ /.*/   /为斜杆，\为反斜杆，反斜杆为转义字符，表示斜杆用：\ /  ,表示斜杆后面的所有内容： /.*
+    }
+    
+    const render=()=> {
+        //声明渲染函数
+        $siteList.find('li:not(.last)').remove() //移除已有网址防止重新渲染
+        hashMap.forEach(node=> {
+            const $li=$(` <li> <a href="${node.url}"> <div class="site"> <div class="logo">$ {
+                node.logo[0]
+            }
+            </div> <div class="link">$ {
+                simplifyUrl(node.url)
+            }
+            </div> <svg class="icon" > <use xlink:href="#icon-close"></use> </svg> </div> </a> </li> `).insertBefore($lastLi)
+        }
+        )
+    }
+    
+    render() //先全部渲染一遍
+    $('.addButton') .on('click', ()=> {
+        //添加点击事件，新增网址卡片
+        let url=prompt('请输入你要新增网站的网址：') if (url.indexOf('https') !==0) {
+            url='https://' + url
+        }
+        hashMap.push( {
+            //将新增网址内容插入哈希数组读档
+            logo: simplifyUrl(url)[0].toUpperCase(), url: url,
+        }
+        );
+        render() // 重新渲染哈希数组以读档
+    }
+    
+    );
+    window.onbeforeunload=()=> {
+        const myStorage=JSON.stringify(hashMap) //将哈希数组从对象转化为字符串
+        localStorage.setItem('x', myStorage)
+    }
+    
+    .searchForm>input {
+        width: 100%;
+        margin-right: 10px;
+        padding: 0 10px;
+        height: 40px;
+        border: none;
+        border-radius: 4px;
+    }
+    
+    .searchForm>button {
+        white-space: nowrap;
+        /*强制不换行*/
+        padding: 0 28px;
+        background: #13227A;
+        border: none;
+        border-radius: 4px;
+        color: #eee;
+        font-size: 16px;
+    }
+    /*先布局，平均布局*/
+    
+    .globalMain {
+        margin: 20px 20px;
+    }
+    
+    .siteList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .siteList>li {
+        margin-bottom: 10px;
+    }
+    
+    .siteList .site {
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 20px 0;
+        position: relative;
+    }
+    
+    .siteList .site>.logo {
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 64px;
+        text-transform: uppercase;
+    }
+    
+    .siteList .site>.link {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    
+    .siteList .site>.icon {
+        position: absolute;
+    }
+    
+    .siteList .addButton .icon-wrapper {
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .siteList .addButton .icon {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .siteList .addButton .text {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+/*# sourceMappingURL=index.HASH_REF_dd26e70832e1e593d058ee313202ffd3.css.map */

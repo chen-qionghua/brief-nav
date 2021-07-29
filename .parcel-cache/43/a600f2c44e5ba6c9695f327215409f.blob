@@ -1,0 +1,20 @@
+const hashMap = [
+    {
+        logo: 'A',
+        url: 'https://www.acfun.cn'
+    },
+    {
+        logo: 'B',
+        url: 'https://www.bilibili.com'
+    }
+];
+hashMap.forEach((node)=>{
+    const $li = $(`\n    <li>\n                <a href="${node.url}">\n                    <div class="site">\n                        <div class="logo">${node.url[0]}</div>\n                        <div class="link">${node.url}</div>\n                    </div>\n                </a>\n            </li>\n    `);
+});
+$('.addButton').on('click', ()=>{
+    let url = prompt('请输入你要新增网站的网址：');
+    if (url.indexOf('https') !== 0) url = 'https://' + url;
+    const $siteList = $('.siteList');
+    const $lastLi = $siteList.find('li.last');
+    const $li = $(`<li><a href="${url}">\n            <div class="site">\n                <div class="logo">${url[0]}</div>\n                <div class="link">${url}</div>\n            </div>\n        </a></li>`).insertBefore($lastLi);
+});
