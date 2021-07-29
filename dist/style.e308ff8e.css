@@ -33,7 +33,7 @@ img {
 /* style */
 
 body {
-    background-image: url(./images/bg1.jpg);
+    background-image: url(/bg1.872b44c1.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -233,3 +233,5 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
