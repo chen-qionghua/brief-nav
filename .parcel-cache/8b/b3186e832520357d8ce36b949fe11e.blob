@@ -29,19 +29,18 @@ img {
     max-height: 100%;
 }
 
-
 /* style */
 
 body {
-    background-image: url(./images/bg1.jpg);
+    background-image: url(c422bc7abd97b4786e3836ee339639d3);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
 }
 
 .globalHeader {
-    position: relative;
     margin: 20px;
+    position: relative;
     z-index: 10;
 }
 

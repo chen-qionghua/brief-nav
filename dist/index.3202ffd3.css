@@ -29,11 +29,10 @@ img {
     max-height: 100%;
 }
 
-
 /* style */
 
 body {
-    background-image: url(./images/bg1.jpg);
+    background-image: url(bg1.592f2985.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -225,3 +224,4 @@ body {
     justify-content: center;
     align-items: center;
 }
+/*# sourceMappingURL=index.3202ffd3.css.map */

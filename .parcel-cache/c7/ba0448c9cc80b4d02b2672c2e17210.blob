@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>npc-nav</title>
-    <link rel="stylesheet" href="style.css">
-    <style type="text/css">
-        .icon {
+    <link rel="stylesheet" href="/index.HASH_REF_dd26e70832e1e593d058ee313202ffd3.css">
+    <style>.icon {
             width: 1em;
             height: 1em;
             vertical-align: -0.15em;
             fill: currentColor;
             overflow: hidden;
         }
-    </style>
+</style>
 </head>
 
 <body>
+    <div class="onshow" id="marker"></div>
+
     <header class="globalHeader">
         <form class="searchForm" method="GET" action="https://www.baidu.com/s" target="_blank">
-            <input name='wd' type="text">
+            <input name="wd" type="text">
             <button type="submit">搜索</button>
         </form>
     </header>
-    <div class="onshow" id="marker"></div>
     <main class="globalMain">
         <ul class="siteList">
 
@@ -46,7 +46,7 @@
     <script src="//at.alicdn.com/t/font_2705836_9m71veqf5ii.js
 "></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
 </body>
 
 </html>

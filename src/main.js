@@ -1,17 +1,18 @@
 const $siteList = $('.siteList')
-var put =document.querySelector("input")
+var put = document.querySelector("input")
 var d = document.getElementById("marker")
-put.addEventListener("click",f1)
-put.addEventListener("click",f2)
+put.addEventListener("click", f1)
+put.addEventListener("click", f2)
 
 function f1() {
-        d.style.display = "block";
+    d.style.display = "block";
 }
+
 function f2() {}
 $siteList.display = "none"
 
-put.addEventListener("blur",function () {
-    d.style.display ="none"
+put.addEventListener("blur", function() {
+    d.style.display = "none"
 })
 
 const $lastLi = $siteList.find('li.last')
