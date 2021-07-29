@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>npc-nav</title>
-    <link rel="stylesheet" href="/index.17a1f15c.css">
-    <style>
+    <link rel="stylesheet" href="5825085afe161482f4540426b0250d06">
+    <style data-parcel-key="2b6526fb42f9d0134b5d324086fee47b">
         .icon {
             width: 1em;
             height: 1em;
@@ -44,10 +44,9 @@
             </li>
         </ul>
     </main>
-    <script src="//at.alicdn.com/t/font_2705836_9m71veqf5ii.js
-"></script>
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="index.4b6fd05b.js"></script>
+    <script src="6392fd28c9df33e47dbf9859168b9efa"></script>
+    <script src="278700badb54fb306cb49a95f21c3ff5"></script>
+    <script src="609ad5501232ad47c79e40eac7ed5217"></script>
 </body>
 
 </html>
