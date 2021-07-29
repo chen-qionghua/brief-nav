@@ -1,7 +1,0 @@
-$('.addButton').on('click', ()=>{
-    let url = prompt('请输入你要新增网站的网址：');
-    if (url.indexOf('https') !== 0) url = 'https://' + url;
-    const $siteList = $('.siteList');
-    const $lastLi = $siteList.find('li.last');
-    const $li = $(``);
-});
